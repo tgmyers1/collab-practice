@@ -1,0 +1,25 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+  }
+
+.left-col {
+    background-color: rgb(170, 153, 185);
+}
+
+.mid-col {
+    background-color: cornflowerblue;
+}
+
+.right-col {
+    background-color: rgb(153, 178, 202);
+}
+
+.footer-custom {
+    background-color: rgb(33,37,41);
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
