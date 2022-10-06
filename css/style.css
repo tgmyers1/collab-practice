@@ -1,8 +1,16 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: black;
+    background-image: url("/media/wave_background_44.jpg");
+    background-repeat: repeat; 
+    background-size: auto;
   }
+
+.jumbo-element-edit {
+    border-radius: 0 5vw 0 0;
+    padding: 10px;
+    opacity: 0.9;
+}
 
 .left-col {
     background-color: rgb(170, 153, 185);
@@ -16,6 +24,12 @@ body {
     background-color: rgb(153, 178, 202);
 }
 
+.left-col, .mid-col, .right-col {
+    border-radius: 2vw;
+    margin: 10px;
+    opacity: 0.8;
+}
+
 .footer-custom {
     background-color: rgb(33,37,41);
     color: white;
@@ -23,3 +37,5 @@ body {
     text-align: center;
     padding: 10px 0;
 }
+
+
